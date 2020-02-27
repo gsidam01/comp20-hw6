@@ -1,0 +1,47 @@
+<!--
+    George Sidamon-Eristoff 
+    26 February 2020
+    Tufts Comp20 - HW5
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Amicable Number Calculator"/>
+        <meta name="keywords" content="Amicable Number Calculator"/>
+        <title>Amicable Number Calculator</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet_amicable.css" />
+        <script type="text/javascript" language="javascript"
+        		src="javascript_hw6_amicable.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="header_text">Amicable Numbers</h1>
+        </header>
+        <main>
+        	<h2>Please enter two numbers below</h2>
+            <div class="form_holder" align="center">
+                <form name="number_form" id="number_form">
+                    <label for="num_one">Your first number:</label><br />
+                    <input type="number" id="num_one" name="num_one" value="1"
+                    	   min="1"><br />
+                    <label for="num_two">Your second number:</label><br />
+                    <input type="number" id="num_two" name="num_two" value="1"
+                    	   min="1"><br />
+                    <button type="button" onclick ="check_amicable()">Check if
+                    		they are Amicable!</button>
+                </form>
+
+            </div>
+            <section id="results_zone">
+	            <div id="number_one"></div>
+	            <div id="number_two"></div>
+	            <div id="showFactor_destination"></div>
+	            <div id="amicable_result"></div>
+        	</section>
+        </main>    
+        <footer>
+            <h2>Thank you for checking your numbers!</h2>
+        </footer>
+    </body>
+</html>

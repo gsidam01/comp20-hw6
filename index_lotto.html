@@ -1,0 +1,50 @@
+<!--
+    George Sidamon-Eristoff 
+    26 February 2020
+    Tufts Comp20 - HW5
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Lucky for Life"/>
+        <meta name="keywords" content="Mass Lottery, Lucky for Life, lottery"/>
+        <title>Lucky for Life</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet_lotto.css" />
+        <script type="text/javascript" language="javascript"
+                src="javascript_hw6_lotto.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="header_text">Welcome Mass Lottery's Lucky for Life!</h1>
+        </header>
+        <main>
+        	<h2>Please enter your numbers below</h2>
+            <div class="form_holder" align="center">
+                <form name="number_form" id="number_form">
+                    <label for="five_nums">Please enter five numbers between 1
+                           and 48, separated by spaces.</label><br />
+                    <input type="text" id="five_nums" name="five_nums"
+                           value="1 2 3 4 5"><br />
+                    <label for="luck_ball">Please input your guess between 1
+                           and 18 for the Lucky Ball.</label><br />
+                    <input type="text" id="luck_ball" name="luck_ball"
+                           value="7"><br />
+                    <button type="button" onclick ="comparison()">Calculate
+                            your Winnings!</button>
+                </form>
+
+            </div>
+            <section id="results_zone">
+	            <div id="Unsorted Generated"></div>
+	            <div id="Sorted Generated"></div>
+	            <div id="Your Special"></div>
+	            <div id="Your Winnings"></div>
+        	</section>
+        </main>    
+        <footer>
+            <h2>Thank you for trying your chances with us!  Come again soon!
+                Every day is a lucky day!</h2>
+        </footer>
+    </body>
+</html>

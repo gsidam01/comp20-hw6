@@ -1,0 +1,49 @@
+/*
+    George Sidamon-Eristoff 
+    26 February 2020
+    Tufts Comp20 - HW5
+*/
+
+/* stylesheet.css */
+
+/* General Stylistic Elements */
+body {
+    font-family: georgia,times,arial,helvetica;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Everything related to my Header bar */
+header {
+    width: 100%;
+    color: #12d410;
+    text-align: center;
+    font-size: 150%;
+}
+
+
+/* Everything related to the Main part of the page */
+main {
+    color: #aa8e00;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    border-style: solid;
+    border-color: #cbaef9;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    font-family: georgia,times,arial,helvetica;
+}
+
+#results_zone {
+    color: #ce1163;
+    padding: 25px;
+}
+
+#results_zone strong{
+    color: #00aaff;
+    font-size: 120%;
+}
